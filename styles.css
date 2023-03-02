@@ -180,7 +180,7 @@ body {
     border-radius: 5px;
 }
 
-.dailyQuoteContent {
+.dailyQuoteContent, .quoteHeading{
     text-align: center;
 }
 
