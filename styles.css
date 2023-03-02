@@ -120,4 +120,76 @@ li, a {
 
 /* Header part 2 ends here */
 
+/* News page css  */
+
+.news_header {
+    text-align: center;
+}
+
+.basketball, .football {
+    display: flex;
+    margin: 2rem 0;
+
+}
+
+.news_section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+ .news_image {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.news_image {
+    width: 20rem;
+    height: auto;
+    background: none;
+}
+
+.dailyQuote {
+    margin: 0;
+}
+
+.dailyQuote p {
+    padding: 3rem;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.dailyQuoteContent, .quoteHeading{
+    text-align: center;
+}
+
+
+
+
+#call-to-action{
+    margin: 50px 0;
+   
+}
+
+#call-to-action .container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 3px;
+    padding: 1rem; 
+}
+
+/* FOOTER */
+
+footer.container-fluid {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    
+}
+footer.container-fluid .container{
+    display: flex;
+    justify-content: center;
+}
 
