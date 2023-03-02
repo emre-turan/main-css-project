@@ -169,6 +169,7 @@ body {
 .news_image {
     width: 20rem;
     height: auto;
+    background: none;
 }
 
 .dailyQuote {
@@ -184,30 +185,3 @@ body {
 .dailyQuoteContent {
     text-align: center;
 }
-
-
-
-
-/* fOOTER  */
-
-.container {
-    max-width: 1140px; 
-    margin: 0 auto;
-    padding: 0 15px; 
-}
-  
-.container-fluid {
-    width: 100%; 
-    padding: 0 15px; 
-}
-
-footer.container-fluid {
-    background-color: #1F2937;
-    color: #E5E7EB;
-  }
-  
-  footer.container-fluid .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
