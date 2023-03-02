@@ -167,6 +167,7 @@ body {
 .news_image {
     width: 20rem;
     height: auto;
+    background: none;
 }
 
 .dailyQuote {
@@ -181,4 +182,10 @@ body {
 
 .dailyQuoteContent {
     text-align: center;
+}
+
+.dailyQuoteContent cite {
+    display: block;
+    margin-left: 19rem;
+    margin-top: 0.5rem;
 }
