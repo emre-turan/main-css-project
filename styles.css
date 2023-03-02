@@ -321,18 +321,80 @@ cite {
 
 
 
-
 #call-to-action{
     margin: 50px 0;
-   
 }
 
 #call-to-action .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     color: white;
-    border-radius: 3px;
-    padding: 1rem; 
+    border-radius: 8px;
+    padding: 1rem;
+    width: 60%;
 }
+
+.cta-content {
+    width: 70%;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.btn{
+    font-weight: 0;
+    font-size: 14px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: solid #e5e7eb 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    transition : 366ms;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+
+.btn:hover{
+
+transition : 366ms;
+padding: 10px 30px;
+transform : translateY(-0px);
+background-color: #e5e7eb;
+color: #3882f6;
+border: solid 2px #3882f6;
+}
+
+@media (max-width: 968px) {
+   
+
+    .cta-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
 
 /* FOOTER */
 
@@ -348,4 +410,7 @@ footer.container-fluid .container{
     display: flex;
     justify-content: center;
 }
+
+
+
 
