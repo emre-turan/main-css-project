@@ -8,6 +8,7 @@ header logo text 24px #f9faf8; */
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    
 }
 
 
@@ -303,8 +305,10 @@ footer.container-fluid {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
-    
-}
+    justify-content: center;
+    align-items: center;
+  }
+  
 footer.container-fluid .container{
     display: flex;
     justify-content: center;
