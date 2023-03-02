@@ -162,3 +162,19 @@ li, a {
 .dailyQuoteContent, .quoteHeading{
     text-align: center;
 }
+
+
+
+
+/* FOOTER */
+
+footer.container-fluid {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    
+}
+footer.container-fluid .container{
+    display: flex;
+    justify-content: center;
+}
