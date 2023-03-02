@@ -1,8 +1,9 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 /* fonts importation from the fonts folder */
-@font-face {
+/* @font-face {
     font-family: "Roboto-Black";
     src: url(./fonts/Roboto-Black.ttf) format('truetype');
 }
@@ -12,7 +13,7 @@ html {
 }
 /* page font style */
 body {
-    font-family: "Roboto-Black", Arial;
+    /* font-family: "Roboto-Black", Arial; */
     margin: 0;
 }
 
@@ -40,7 +41,7 @@ nav {
 
 }
 ul {
-    font-family: "Roboto-Light";
+    /* font-family: "Roboto-Light"; */
     list-style-type: none;
 }
 li, a {
@@ -91,7 +92,7 @@ header logo text 24px #f9faf8; */
     color: #E5E7EB;
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-family: "Roboto-light";
+    /* font-family: "Roboto-light"; */
 }
 
 .banner-img {
