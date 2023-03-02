@@ -189,6 +189,31 @@ li, a {
     transition: 1s ease;
 }
 
+/* Basak's part css*/
+
+.homepagetestimonial {
+    margin: 0;
+}
+
+.homepagetestimonial p {
+    padding: 3rem;
+    background: #eee;
+    border-radius: 5px;
+    
+}
+
+.basakcontent {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+
+
+}
+
+cite {
+    display: block;
+}
+
 
 /* Event page*/
 
