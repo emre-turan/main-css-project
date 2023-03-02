@@ -286,6 +286,10 @@ li, a {
     text-align: center;
 }
 
+cite {
+    display: block;
+}
+
 
 
 
