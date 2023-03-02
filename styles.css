@@ -168,6 +168,18 @@ li, a {
 
 
 
+#call-to-action{
+    margin: 50px 0;
+   
+}
+
+#call-to-action .container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 3px;
+    padding: 1rem; 
+}
+
 /* FOOTER */
 
 footer.container-fluid {
@@ -181,14 +193,3 @@ footer.container-fluid .container{
     justify-content: center;
 }
 
-#call-to-action{
-    margin: 50px 0;
-   
-}
-
-#call-to-action .container {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 3px;
-    padding: 1rem; 
-}
