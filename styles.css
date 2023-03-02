@@ -253,6 +253,10 @@ li, a {
 
 }
 
+.basketball, .football h3 {
+    text-align: center;
+}
+
 .news_section {
     display: flex;
     flex-direction: column;
