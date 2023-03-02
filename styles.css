@@ -111,3 +111,74 @@ header logo text 24px #f9faf8; */
 /* Header part 2 ends here */
 
 
+
+
+html {
+    scroll-behavior: smooth;
+}
+/* fonts importation from the fonts folder */
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(./fonts/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(./fonts/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Roboto-Normal";
+    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+/* page font style */
+body {
+    font-family: "Roboto-Normal", Arial;
+    margin: 0;
+}
+
+
+
+/* Header part 2 ends here */
+
+/* News page css  */
+
+.news_header {
+    text-align: center;
+}
+
+.basketball, .football {
+    display: flex;
+    margin: 2rem 0;
+
+}
+
+.news_section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+ .news_image {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.news_image {
+    width: 20rem;
+    height: auto;
+}
+
+.dailyQuote {
+    margin: 0;
+}
+
+.dailyQuote p {
+    padding: 3rem;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.dailyQuoteContent {
+    text-align: center;
+}
