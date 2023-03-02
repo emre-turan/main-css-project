@@ -69,16 +69,14 @@ header logo text 24px #f9faf8; */
 .banner-info {
     display: flex;
     flex-direction: row;
-    margin-left: 12%;
+    margin-left: 10%;
     color: white;
     margin-top: 2rem;
-    width: 89%;
     height: 16rem;
 }
 
 .welcome-msg {
     flex: 1;
-    margin-left: -1rem;
 
 }
 
@@ -97,7 +95,7 @@ header logo text 24px #f9faf8; */
 }
 
 .banner-img {
-    margin-right: 12%;
+    margin-right: 10%;
     flex: 1;
     padding-right: 2rem;
 }
