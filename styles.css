@@ -231,7 +231,7 @@ cite {
 }
   
 /* Card styles */
-.event-card {
+/* .event-card {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -239,14 +239,44 @@ cite {
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
-    
-  
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+  } */
 
+  .event-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
   
+  .event-card {
+    width: calc(33.33% - 10px); 
+    margin: 0 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
   .event-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
   }
+
+  .container h1 {
+    text-align: center;
+  }
+  
   
   .card__title {
     font-size: 20px;
@@ -274,7 +304,9 @@ cite {
     text-decoration: underline;
   }
 
-
+#tennis {
+    margin-bottom: 30px;
+}
 
 /* News page css  */
 
@@ -415,3 +447,43 @@ footer.container-fluid .container{
     justify-content: center;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .event-cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .event-card {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+    
+    .event-card:nth-of-type(odd) {
+      margin-right: 10px;
+    }
+    
+    .event-card:nth-of-type(even) {
+      margin-left: 10px;
+    }
+  }
+@media only screen and (max-width: 480px) {
+    .event-cards-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .event-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .event-card:not(:last-child) {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+  }
+  
