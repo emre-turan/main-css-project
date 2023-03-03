@@ -229,21 +229,7 @@ cite {
     color: #333;
     text-align: center;
 }
-  
-/* Card styles */
-/* .event-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.2s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;   
-  } */
+
 
   .event-cards-container{
     display: flex;
