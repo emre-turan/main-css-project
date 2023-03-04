@@ -478,12 +478,15 @@ cite {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
-    padding: 1rem;
-    width: 60%;
+    padding: 2rem;
 }
 
 .cta-content {
     width: 70%;
+}
+
+.cta-content p {
+   margin-left: 30px;
 }
 
 .cta-button {
