@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     overflow-y: auto;
     
 }
@@ -23,12 +23,12 @@ body {
 .container {
     max-width: 1140px; 
     margin: 0 auto; 
-    padding: 0 15px; 
+    /* padding: 0 15px;  */
   }
   
 .container-fluid {
     width: 100%; 
-    padding: 0 15px;
+    /* padding: 0 15px; */
     
 }
 
@@ -95,9 +95,9 @@ li, a {
 
 @media (max-width: 1102px) {
 
-header {
+/* header {
     padding: 0 15px !important;
-}
+} */
 
 .banner-info {
     flex-direction: column;
@@ -105,6 +105,7 @@ header {
     margin: 0 auto;
     height: auto;
     justify-content: space-between;
+    padding: 0 1rem;
 }
 .banner-img {
     max-width: 450px !important;
