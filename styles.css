@@ -198,14 +198,22 @@ li, a {
 
 /* Basak's part css*/
 
-.homepagetestimonial {
+#testimonials .container {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 60%;
 }
 
 .homepagetestimonial p {
     padding: 3rem;
-    background: #eee;
+    background: #E5E7EB;
     border-radius: 5px;
+    color: #1F2937;
     
 }
 
