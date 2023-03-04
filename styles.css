@@ -7,8 +7,7 @@ header logo text 24px #f9faf8; */
 
 html {
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;    
 }
 
 body {
