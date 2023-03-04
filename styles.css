@@ -266,6 +266,25 @@ header {
     transition: 1s ease;
 }
 
+/*B. for yazeed */
+
+@media (max-width: 968px) {
+   
+
+    .art .card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .art .card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* Basak's part css*/
 
 #testimonials .container {
