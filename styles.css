@@ -24,12 +24,12 @@ body {
 .container {
     max-width: 1140px; 
     margin: 0 auto; 
-
+    padding: 0 15px; 
   }
   
 .container-fluid {
     width: 100%; 
-    margin: 0 auto;
+    padding: 0 15px; 
 }
 
   
@@ -69,7 +69,8 @@ li, a {
     font-size: 18px;
 }
  a:hover{
-    text-decoration: underline;
+    text-decoration: underline; 
+    color: #ffffff
  }
 /* HEADER ENDS HERE */
 
@@ -194,7 +195,7 @@ header {
     transition: 366ms;
     transform: translateY(0);
     border-radius: 25px;
-    padding: 7px 10px;
+    padding: 10px 13px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -227,6 +228,7 @@ header {
 
 .Yazeed h2 {
     margin: 8px;
+    font-family: "Roboto-Light";
     font-size: 14px;
 }
 
@@ -276,9 +278,7 @@ header {
 
 /*B. for yazeed */
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 968px) {
    
 
     .art .card {
@@ -307,7 +307,14 @@ header {
     align-items: center;
     border-radius: 8px;
     padding: 1rem;
-    width: 100%;
+    width: 60%;
+}
+
+.Basak {
+    padding: 0;
+}
+.homepagetestimonial {
+    margin: 0 !important;
 }
 
 .homepagetestimonial p {
