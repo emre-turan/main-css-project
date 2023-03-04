@@ -306,16 +306,17 @@ cite {
 
 .news_header {
     text-align: center;
+    color: darkred;
 }
 
 .basketball, .football {
     display: flex;
     margin: 2rem 0;
-
 }
 
-.basketball, .football h3 {
+.basketball h3, .football h3 {
     text-align: center;
+    color: darkblue;
 }
 
 .news_section {
@@ -324,7 +325,10 @@ cite {
     flex: 1;
     justify-content: center;
     margin: 0 1rem;
+    padding: 1rem;
+    border: 1px dashed black;
 }
+
 
  .news_image {
     flex: 1;
@@ -345,6 +349,10 @@ cite {
     padding: 3rem;
     background: #eee;
     border-radius: 5px;
+}
+
+.quoteHeading {
+    color: darkred;
 }
 
 .dailyQuoteContent, .quoteHeading{
