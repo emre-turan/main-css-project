@@ -29,6 +29,7 @@ body {
   
 .container-fluid {
     width: 100%; 
+    padding: 0 15px;
     
 }
 
@@ -312,6 +313,10 @@ header {
 
 .Basak {
     padding: 0;
+    width: 100%;
+    background: #E5E7EB;
+
+
 }
 .homepagetestimonial {
     margin: 0 !important;
@@ -319,7 +324,6 @@ header {
 
 .homepagetestimonial p {
     padding: 3rem;
-    background: #E5E7EB;
     border-radius: 5px;
     color: #1F2937;
     
