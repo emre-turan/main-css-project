@@ -105,18 +105,27 @@ li, a {
     margin: 0 auto !important;
     height: auto;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
+    position: relative;
+
 }
 .banner-img {
     max-width: 450px !important;
     margin: 0 auto !important;
     margin-left: -1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     
 }
 .welcome-msg {
     text-align: center !important;
     margin-left: 0% !important;
+}
+
+.explore-btn {
+    bottom: 0;
+    position: absolute;
+    margin-left: -3rem;
+    margin-bottom: 1rem !important;
 }
 
 
@@ -568,7 +577,7 @@ footer.container-fluid .container{
     }
     
     .event-card {
-      width: 50%;
+      width: 50% !important;
       margin-bottom: 20px;
     }
     
