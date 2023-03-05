@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     overflow-y: auto;
     
 }
@@ -23,12 +23,12 @@ body {
 .container {
     max-width: 1140px; 
     margin: 0 auto; 
-    padding: 0 15px; 
+    /* padding: 0 15px;  */
   }
   
 .container-fluid {
     width: 100%; 
-    padding: 0 15px;
+    /* padding: 0 15px; */
     
 }
 
@@ -84,38 +84,41 @@ li, a {
 }
 
 .banner-info {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: white;
-    margin-top: 2rem;
+    color: white;;
     height: 16rem;
+    padding-bottom: 3rem;
 }
+
 
 @media (max-width: 1102px) {
 
-header {
+/* header {
     padding: 0 15px !important;
-}
+} */
 
 .banner-info {
     flex-direction: column;
     margin-bottom: 0.5rem !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
     height: auto;
     justify-content: space-between;
+    padding: 0 1rem;
 }
 .banner-img {
     max-width: 450px !important;
     margin: 0 auto !important;
-    margin-right: 1rem;
     margin-left: -1rem;
+    padding-bottom: 2rem;
     
 }
 .welcome-msg {
     text-align: center !important;
+    margin-left: 0% !important;
 }
+
 
 
 .basketball, .football {
@@ -136,6 +139,7 @@ header {
 .banner-img {
     max-width: 350px !important;
     margin: 0 auto !important;
+    
     
 }
 
@@ -166,6 +170,7 @@ header {
 
 .welcome-msg {
     flex: 1;
+    margin-left: 10%;
 
 }
 
@@ -186,9 +191,11 @@ header {
 
 .banner-img {
     flex: 1;
-    max-width: 600px;
+    max-width: 500px;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-right: 10%;
+
 }
 
 .explore-btn {
