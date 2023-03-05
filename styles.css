@@ -451,7 +451,7 @@ cite {
 }
 
 
- .news_image {
+.news_image {
     flex: 1;
     margin: 0 1rem;
 }
@@ -503,7 +503,7 @@ cite {
 }
 
 .cta-content {
-    width: 70%;
+  width: 70%; 
 }
 
 .cta-content p {
