@@ -223,6 +223,9 @@ li, a {
 /* Header part 2 ends here */
 
 /*yazeed section*/
+.Yazeed{
+    margin-bottom: 127px;
+}
 
 .news{
     text-align: center;
@@ -231,13 +234,14 @@ li, a {
     color: #1F2937;
 }
 
-.Yazeed {
+.art {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.Yazeed h2 {
+.art h2 {
     margin: 8px;
     font-family: "Roboto-Light";
     font-size: 14px;
@@ -258,8 +262,8 @@ li, a {
     object-fit:fill;
     border-radius: 9px;
 }
-
-.Yazeed article {
+/*
+.art {
     PADDING: 15PX;
     width: 15%;
 }
@@ -267,7 +271,7 @@ li, a {
 .art {
     text-align: -WEBKIT-CENTER !important;
 }
-
+*/
 .card img{
     transition: 1s ease;
     filter: grayscale(100%);
@@ -291,18 +295,14 @@ li, a {
 
 @media (max-width: 968px) {
    
-
-    .art .card {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 1rem;
+    .Yazeed{
+        margin-bottom: 0px;
     }
 
     .art .card {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       width: 37%;
+        text-align: center;
+        margin-bottom: 8rem;
     }
 }
 
