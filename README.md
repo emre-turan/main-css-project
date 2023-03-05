@@ -11,7 +11,6 @@ Live site: https://etdesign.github.io/main-css-project/index.html
 
 # Our Sports Website
 ## Table of contents
-## Table of contents
 - [Overview](#overview)
   - [Page](#page)
   - [Sample](#sample)
