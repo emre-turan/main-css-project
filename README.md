@@ -19,7 +19,7 @@ Our Sports Website is a project developed by a team of front-end developers duri
 
 - Basak Sayar
 - Emre Turan
-- Mubarak Bosa
+- Mubarak Ahmad Bose
 - Vladislav Kostadinov
 - Yazeed Daher
 
